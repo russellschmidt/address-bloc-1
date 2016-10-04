@@ -9,7 +9,7 @@ db.execute <<-SQL
     );
 SQL
 
-def.execute <<-SQL
+db.execute <<-SQL
     CREATE TABLE entry (
         id INTEGER PRIMARY KEY,
         address_book_id INTEGER NOT NULL,
